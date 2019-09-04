@@ -13,6 +13,10 @@
 		A10036EE232053CF00FC8B39 /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10036ED232053CF00FC8B39 /* Statement.swift */; };
 		A10036F0232054B400FC8B39 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10036EF232054B400FC8B39 /* Session.swift */; };
 		A10036F22320558C00FC8B39 /* DummySession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10036F12320558C00FC8B39 /* DummySession.swift */; };
+		A10036F423205B7200FC8B39 /* PasswordChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10036F323205B7200FC8B39 /* PasswordChecker.swift */; };
+		A10036F623205D6A00FC8B39 /* InvalidPasswordStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10036F523205D6A00FC8B39 /* InvalidPasswordStub.swift */; };
+		A10036F823205F7800FC8B39 /* RealSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10036F723205F7800FC8B39 /* RealSession.swift */; };
+		A10036FA232062BC00FC8B39 /* ValidPasswordStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10036F9232062BC00FC8B39 /* ValidPasswordStub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 		A10036ED232053CF00FC8B39 /* Statement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statement.swift; sourceTree = "<group>"; };
 		A10036EF232054B400FC8B39 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		A10036F12320558C00FC8B39 /* DummySession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummySession.swift; sourceTree = "<group>"; };
+		A10036F323205B7200FC8B39 /* PasswordChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChecker.swift; sourceTree = "<group>"; };
+		A10036F523205D6A00FC8B39 /* InvalidPasswordStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvalidPasswordStub.swift; sourceTree = "<group>"; };
+		A10036F723205F7800FC8B39 /* RealSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSession.swift; sourceTree = "<group>"; };
+		A10036F9232062BC00FC8B39 /* ValidPasswordStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPasswordStub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,8 @@
 				A10036D7232052B800FC8B39 /* Info.plist */,
 				A10036ED232053CF00FC8B39 /* Statement.swift */,
 				A10036EF232054B400FC8B39 /* Session.swift */,
+				A10036F323205B7200FC8B39 /* PasswordChecker.swift */,
+				A10036F723205F7800FC8B39 /* RealSession.swift */,
 			);
 			path = Mocking;
 			sourceTree = "<group>";
@@ -91,6 +101,8 @@
 				A10036E1232052B900FC8B39 /* MockingTests.swift */,
 				A10036E3232052B900FC8B39 /* Info.plist */,
 				A10036F12320558C00FC8B39 /* DummySession.swift */,
+				A10036F523205D6A00FC8B39 /* InvalidPasswordStub.swift */,
+				A10036F9232062BC00FC8B39 /* ValidPasswordStub.swift */,
 			);
 			path = MockingTests;
 			sourceTree = "<group>";
@@ -204,6 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10036F823205F7800FC8B39 /* RealSession.swift in Sources */,
+				A10036F423205B7200FC8B39 /* PasswordChecker.swift in Sources */,
 				A10036F0232054B400FC8B39 /* Session.swift in Sources */,
 				A10036EE232053CF00FC8B39 /* Statement.swift in Sources */,
 			);
@@ -215,6 +229,8 @@
 			files = (
 				A10036E2232052B900FC8B39 /* MockingTests.swift in Sources */,
 				A10036F22320558C00FC8B39 /* DummySession.swift in Sources */,
+				A10036F623205D6A00FC8B39 /* InvalidPasswordStub.swift in Sources */,
+				A10036FA232062BC00FC8B39 /* ValidPasswordStub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
